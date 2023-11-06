@@ -1,0 +1,544 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .py_90 {
+        padding: 60px 0px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(33, 37, 41, 0.99);
+        border-color: rgba(33, 37, 41, 0.99);
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(33, 37, 41, 0.99)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .menu_part {
+        background: #f2e9f3;
+        padding: 2px 8px;
+    }
+
+    .menu .nav-item .nav-link {
+        padding: 10px 22px;
+        text-align: center;
+    }
+
+    .menu .nav-item {
+        text-align: center;
+    }
+    .banner_part{
+        height: 50vh;
+    }
+    .banner-text-output h3 {
+        color: #fff;
+        font-family: 'poppins';
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .banner-text-output h1 {
+        color: #fff;
+        font-size: 17px;
+        font-family: 'poppins';
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-top: 10px;
+        line-height: 1.6;
+    }
+    .banner-text-output h1 span {
+        color: #0b0101;
+        font-weight: 600;
+        font-family: 'poppins';
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+    .banner_button a {
+        padding: 5px 5px;
+        font-size: 8px;
+        margin-right: 10px;
+        border-radius: 8px;
+    }
+    .banner_img img {
+        width: 90px;
+        height: 90px;
+        transform: translate(200px, -135px);
+    }
+    .about_img img {
+        border-radius: 25px;
+    }
+    .banner_img .img-fluid {
+        padding: 0px 0px;
+    }
+    .about_content h4 {
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0px 0px;
+    }
+    .about_content p {
+        font-size: 13px;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    .about_text{
+        text-align: center;
+    }
+    .about_text h5 {
+        font-size: 15px;
+        padding: 2px 65px;
+        text-align: left;
+        color: #1a1a1a;
+    }
+    .about_button{
+        text-align: center;
+    }
+    .about_button a{
+        padding: 5px 5px;
+        font-size: 8px;
+        margin-right: 10px;
+        border-radius: 8px;
+    }
+    .skill_text h6 {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .education_text h4 {
+        font-size: 20px;
+    }
+    .edu_context h5 {
+        font-size: 14px;
+    }
+    .edu_context p {
+        font-size: 12px;
+    }
+
+    .port_button ul li{
+        margin-top: 0px;
+    }
+    .port_button ul li a {
+        padding: 2px 8px;
+        font-size: 8px;
+        font-weight: 600;
+        border-radius: 7px;
+        margin-right: 0px;
+    }
+    .port_gallary img {
+        padding: 0px 20px;
+    }
+
+    .test_slide_item_img img {
+        height: 100px;
+        padding: 0px 100px;
+    }
+    .test_slide_item h6,
+    .test_slide_item h5{
+        font-size: 14px;
+    }
+    .test_slide_item p {
+        font-size: 10px;
+        padding: 6px 80px;
+    }
+    
+    .contact_side p {
+        font-size: 16px;
+        padding: 4px 60px;
+        text-align: left;
+    }
+    .contact_side p i {
+        font-size: 18px;
+        padding: 0px 0px;
+        display: block;
+    }
+    .contact_icon a {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .contact_icon {
+        margin-top: 0px;
+        margin-bottom: -45px;
+    }
+    span .btn.btn2 {
+        margin-top: 60px;
+    }
+    .btn.btn2 {
+        padding: 4px 10px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    .contact_text input {
+        padding: 0px 10px 7px;
+        font-size: 12px;
+        margin: 0px 5px 5px;
+        border-radius: 8px;
+    }
+    .contact_sub input {
+        padding: 5px 10px;
+        font-size: 12px;
+        margin: 5px 0px;
+        border-radius: 8px;
+        width: 175px;
+    }
+    .contact_sub textarea {
+        padding: 5px 10px;
+        margin: 5px 58px;
+        width: 175px;
+        height: 75px;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+
+    .img-fluid {
+        padding: 0px 65px;
+    }
+    .team_slide_item_overlay {
+        padding: 0px 0px;
+    }
+    .team_slide_item_overlay p {
+        padding-bottom: 0px;
+    }
+    p {
+        margin-bottom: 0rem;
+    }
+    .team_slide_item_overlay ul li a {
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    p,
+    h5 {
+        font-size: 12px;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+    .ft_item .sicon_part li a {
+        height: 45px;
+        width: 45px;
+        margin: 0px 15px;
+    }
+    .ft_item ul li a {
+        padding: 25px 18px;
+        font-size: 15px;
+        border-right: 0px;
+    }
+    .copy_right p,
+    .copy_right p a {
+        font-size: 10px;
+    }
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .py_90 {
+        padding: 70px 0px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(33, 37, 41, 0.99);
+        border-color: rgba(33, 37, 41, 0.99);
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(33, 37, 41, 0.99)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .menu_part {
+        background: #f2e9f3;
+    }
+
+    .menu .nav-item .nav-link {
+        padding: 10px 22px;
+        text-align: center;
+    }
+
+    .menu .nav-item {
+        text-align: center;
+    }
+
+    .banner_part {
+        height: 55vh;
+    }
+    .banner-text-output h3 {
+        font-size: 18px;
+    }
+    .banner-text-output h1 span,
+    .banner-text-output h1 {
+        font-size: 22px;
+    }
+    .banner_button a {
+        padding: 6px 10px;
+        margin-right: 10px;
+        font-size: 12px;
+        margin-right: 12px;
+        border-radius: 6px;
+    }
+    .banner_img img {
+        width: 180px;
+        height: 180px;
+        transform: translate(330px, -150px);
+    }
+    .about_content h4 {
+        font-size: 26px;
+        text-align: center;
+        padding: 15px 0px 0px;
+    }
+    .about_content p {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 95px;
+    }
+    .about_button {
+        text-align: center;
+    }
+    .service_text i {
+        padding: 0px;
+    }
+    .port_overlay h5 {
+        font-size: 18px;
+    }
+    .port_overlay h5 i {
+        font-size: 18px;
+        padding-left: 0px;
+    }
+
+    .test_slide_item_img img {
+        height: 135px;
+        padding: 0px 200px;
+    }
+    .test_slide_item p {
+        font-size: 14px;
+        padding: 8px 95px;
+    }
+
+    .contact_side p span {
+        padding-left: 0%;
+    }
+    .contact_side {
+        padding: 15px 0px;
+        text-align: left;
+    }
+    .contact_side p {
+        font-size: 18px;
+        padding: 10px 0px 0px;
+    }
+    .contact_side p i {
+        font-size: 18px;
+    }
+    .contact_sub input {
+        padding: 0px 10px;
+        width: 250px;
+        height: 60px;
+    }
+    .contact_sub textarea {
+        margin: 5px 8px;
+        width: 245px;
+        height: 100px;
+    }
+    .img-fluid {
+        padding: 0px 30px;
+    }
+    footer {
+        padding-top: 10px;
+    }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    h3 {
+        font-size: 34px;
+    }
+
+
+
+    .py_90 {
+        padding: 70px 0px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .menu .nav-item .nav-link {
+        padding: 25px 8px;
+        text-transform: uppercase;
+    }
+    .banner_part{
+        height: 55vh;
+    }
+    .banner_img img {
+        width: 260px;
+        height: 260px;
+        transform: translate(440px, -240px);
+    }
+    .banner-text-output h3 {
+        font-size: 26px;
+    }
+    .banner-text-output h1 span,
+    .banner-text-output h1 {
+        font-size: 35px;
+    }
+
+    .img-fluid {
+        padding: 0px 40px;
+    }
+    .about_content h4 {
+        text-align: center;
+        padding: 20px 0px 0px;
+    }
+    .about_content p {
+        text-align: center;
+        padding: 0px 140px;
+    }
+    .about_button {
+        text-align: center;
+    }
+    .test_slide_item_img img {
+        height: 140px;
+        padding: 0px 220px;
+    }
+    .contact_side p i {
+        font-size: 18px;
+        display: inline-block;
+    }
+    .contact_side p {
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+    .contact_icon {
+        margin: 15px 0px 0px 25px;
+    }
+    .contact_sub input {
+        width: 250px;
+        height: 70px;
+    }
+    .contact_sub textarea {
+        margin: 5px 40px;
+        width: 255px;
+    }
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+	font-size: 50px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    p {
+        font-size: 14px;
+    }
+
+    .banner_part {
+	height: 50vh;
+    }
+    .banner_img img {
+	width: 280px;
+	height: 280px;
+	transform: translate(600px, -250px);
+    }
+    .about_button,
+    .about_content{
+        text-align: center;
+    }
+    .about_text{
+        text-align: left;
+    }
+    .about_text h5 {
+        font-size: 16px;
+        padding: 2px 0px;
+    }
+    .about_button {
+        padding-top: 10px;
+    }
+    .about_button a {
+        padding: 5px 10px;
+    }
+    .test_slide_item_img img {
+        height: 130px;
+        padding: 0px 325px;
+    }
+    .contact_sub input {
+        width: 255px;
+        height: 65px;
+        padding: 0px 10px;
+        margin: 0px 0px;
+    }
+    .contact_sub textarea {
+        margin: 5px 100px;
+        width: 260px;
+        height: 90px;
+    }
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+    
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .banner_part {
+        height: 40vh;
+    }
+    .test_slide_item_img img {
+        height: 155px;
+        padding: 0px 465px;
+    }
+    .contact_sub textarea {
+        margin: 5px 65px;
+    }
+}
